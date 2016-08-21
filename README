@@ -1,0 +1,33 @@
+author: eronning
+project: realtime
+
+description:
+
+you can run the project with 'node server.js'.
+
+sockets are used to generate realtime interactions
+for a chatroom. people can join a room and send messages
+to other people in that room. people are capable of seeing 
+the list of people in the room and are capable of changing their
+nickname. 
+
+each room is unique and will not be duplicated.
+
+whenever a person changes their nickname, all the corresponding 
+messages stored in the db for that person will be updated to 
+match the new nickname.
+
+info:
+
+comments such as information about people joining/leaving
+the room or people changing nicknames is not stored in the
+db, which means that on a message refresh they will disappear.
+
+message refresh will generally occur when a nickname is changed
+or it will occur for a person when they first join the room.
+
+known Bugs:
+
+nicknames for each room are not checked for uniqueness,
+meaning that if two of the same nickname is in the same
+room then they will be treated as the same person.

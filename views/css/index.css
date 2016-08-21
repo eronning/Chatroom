@@ -1,0 +1,36 @@
+html {
+
+}
+h1 {
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-size:30px;
+   margin-top: 5px; margin-bottom: 0px;
+   text-align: center;
+   font-weight: normal;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   color: #222;
+}
+h2 {
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-size:24px;
+   margin-top: 5px; margin-bottom: 20px;
+   text-align: center;
+   font-weight: normal;
+   color: #222;
+}
+input {
+   position: relative;
+   display: block;
+   padding: 19px 39px 18px 39px;
+   color: #FFF;
+   margin: 0 auto;
+   background: #1abc9c;
+   font-size: 18px;
+   text-align: center;
+   font-style: normal;
+   width: 300px;
+   border: 1px solid #16a085;
+   border-width: 1px 1px 3px;
+   margin-bottom: 10px;
+}
